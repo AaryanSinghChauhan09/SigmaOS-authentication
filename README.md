@@ -1,72 +1,16 @@
 # SigmaOS-authentication
 
-SigmaOS critical system component inspired by Arch Linux and Debian architecture.
-
-## Overview
-
-This component provides essential functionality for the SigmaOS operating system,
-following the modular design principles of Arch Linux and the stability focus of Debian.
+SigmaOS component for essential infrastructure.
 
 ## Features
-
-- Asynchronous I/O with Tokio
-- Comprehensive error handling with anyhow
-- Structured logging
+- Modular architecture
+- Asynchronous I/O
 - Configuration management
-- Status monitoring
-- CLI interface with clap
-
-## Installation
-
-```bash
-cargo build --release
-cargo install --path .
-```
 
 ## Usage
-
 ```bash
-# Initialize the component
-authentication init
-
-# Start the component
-authentication start
-
-# Stop the component
-authentication stop
-
-# Check status
-authentication status
-
-# Run the component
-authentication run
-```
-
-## Configuration
-
-The component can be configured via environment variables or configuration files.
-
-## Building
-
-```bash
-cargo build --release
-```
-
-## Testing
-
-```bash
-cargo test
+cargo run --release
 ```
 
 ## License
-
-MIT License - See LICENSE file for details.
-
-## Contributing
-
-See CONTRIBUTING.md for guidelines.
-
-## Links
-
-- Repository: https://github.com/AaryanSinghChauhan09/SigmaOS-authentication
-- SigmaOS: https://github.com/AaryanSinghChauhan09
+MIT
